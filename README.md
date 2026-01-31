@@ -12,11 +12,11 @@ This display driver for LCDSmartie supports the following hardware:
    
    a) 8 parallel data bits
    
-   b) E control (to CH341A AFD#)
+   b) E control (to CH341A pin 4 (DS#/AFD#/ROV#))
    
-   c) R/W control (to CH341A STB#)
+   c) R/W control (to CH341A pin 25 (RW#/STB#/RDY#))
    
-   d) RS control (to CH341A SIN#)
+   d) RS control (to CH341A pin 3 (AS#/SIN#/IN7))
    
    e) 5V power
    
