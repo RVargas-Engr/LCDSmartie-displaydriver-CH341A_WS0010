@@ -16,13 +16,14 @@
    as the jumper that configures "M68" mode and then re-soldering it at the jumper location that configures
    "i80" mode.  An image file has been included in this repository that shows where the jumper is located on
    the back of the module.
-3) #### A 14-pin ribbon cable re-wired to connect the two boards as shown below.
-   Note that a direct 14-pin connection will not work because the
-   pinouts are different.
+3) #### A 14-pin ribbon cable wired to connect the two boards as shown below.
+   Note that OLED modules containing a 2x7 header, include the 2 modules documented above, are not pin-for-pin
+   compatible with the CH341A breakout board found on Amazon, so connection using an unmodified 14-pin ribbon
+   cable will not work.  The following hookups are needed for a general purpose connection.
    - 8 parallel data bits, D0 through D7.
-   - E control pin on OLED to CH341A pin 4 (DS#/AFD#/ROV#).
-   - R/W control pin on OLED to CH341A pin 25 (RW#/STB#/RDY#).
-   - RS control pin on OLED to CH341A pin 3 (AS#/SIN#/IN7).
+   - OLED   E control pin to CH341A pin  4 (DS#/AFD#/ROV#).
+   - OLED R/W control pin to CH341A pin 25 (RW#/STB#/RDY#).
+   - OLED  RS control pin to CH341A pin  3 (AS#/SIN#/IN7).
    - 5V Power.
    - Ground.
    
