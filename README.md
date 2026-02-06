@@ -17,7 +17,7 @@
    "i80" mode.  An image file has been included in this repository that shows where the jumper is located on
    the back of the module.
 3) #### A 14-pin ribbon cable wired to connect the two boards as shown below.
-   Note that OLED modules containing a 2x7 header, include the 2 modules documented above, are not pin-for-pin
+   Note that OLED modules containing a 2x7 header, including the 2 modules documented above, are not pin-for-pin
    compatible with the CH341A breakout board found on Amazon, so connection using an unmodified 14-pin ribbon
    cable will not work.  The following hookups are needed for a general purpose connection.
    - 8 parallel data bits, D0 through D7.
